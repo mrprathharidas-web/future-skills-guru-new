@@ -1,2 +1,17 @@
 [build]
   publish = "."
+
+[[redirects]]
+  from = "/blog"
+  to = "/blogs"
+  status = 301
+
+[[redirects]]
+  from = "/blog/"
+  to = "/blogs/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/blogs/:splat"
+  status = 301
