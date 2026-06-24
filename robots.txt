@@ -1,0 +1,17 @@
+# Robots configuration for Future Skills Guru
+# Replace REPLACE_WITH_YOUR_DOMAIN with your production domain before deploying.
+Sitemap: https://futureskillsguru.in/sitemap.xml
+
+User-agent: *
+Allow: /
+# block private or staging sections if any
+Disallow: /admin/
+Disallow: /__sitemap__/
+
+# Recommended crawl-delay for lightweight servers (seconds). Adjust if necessary.
+# Crawl-delay: 1
+
+# For Google, Bing, and other engines the 'Sitemap' directive above points to the generated sitemap.User-agent: *
+Allow: /
+
+Sitemap: https://futureskillsguru.in/sitemap.xml
